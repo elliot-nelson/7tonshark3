@@ -11,8 +11,9 @@
 /* Change some colors for dark mode */
 @media (prefers-color-scheme: dark) {
 :root {
-  --bg: #333333;
+  /*--bg: #333333;*/
   --accent: #fedb8b;
+  --accent: #00c8ff;
 }
 }
 
@@ -61,7 +62,6 @@ h1,h2,h3,h4,h5,h6 {
   font-family: Lora,serif;
   margin-bottom: 0.25em;
 }
-
 
 
 /* This class is added by the markdown-it-anchor library. Removing the hyperlink color from headers */
